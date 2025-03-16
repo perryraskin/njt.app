@@ -7,8 +7,7 @@ export function Footer() {
       <div className="container px-4 md:px-6 mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-gray-500">
-            ©{new Date().getFullYear()} All rights reserved — Template by
-            Sandoche — Powered by TJMPL
+            ©{new Date().getFullYear()} Perry Raskin. All rights reserved.
           </div>
           <div className="flex items-center gap-4">
             <Link
