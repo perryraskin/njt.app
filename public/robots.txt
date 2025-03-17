@@ -1,0 +1,6 @@
+# https://njt.app robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://njt.app/sitemap.xml 
