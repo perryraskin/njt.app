@@ -33,7 +33,7 @@ export function Hero() {
                 className="inline-block"
               >
                 <Image
-                  src="https://njt.app/assets/ios-badge.svg"
+                  src="ios-badge.svg"
                   width={200}
                   height={60}
                   alt="Download on the App Store"
