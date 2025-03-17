@@ -1,40 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# njt.app
+
+<div align="center">
+  <img src="public/njt-app-logo-new.png" alt="NJT App Icon" width="120" height="120" style="border-radius: 20px;" />
+</div>
+
+A modern iOS showcase landing page built with Next.js 15, React 19, and TypeScript. This project features a beautiful landing page with animated backgrounds, screenshots showcase, and responsive design.
+
+## Tech Stack
+
+- **Framework**: Next.js 15.2.2
+- **Language**: TypeScript
+- **UI**: React 19
+- **Styling**: TailwindCSS
+- **Animations**: TailwindCSS Animate
+- **Icons**: Lucide React
+- **Utilities**:
+  - class-variance-authority
+  - clsx
+  - tailwind-merge
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, run the development server:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+The application will be available at [http://localhost:3000](http://localhost:3000).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/components` - Reusable React components
+- `/pages` - Next.js pages and API routes
+- `/public` - Static assets including screenshots
+- `/styles` - Global styles and Tailwind configuration
+- `/types` - TypeScript type definitions
+- `/lib` - Utility functions and shared logic
 
-## Learn More
+## Development
 
-To learn more about Next.js, take a look at the following resources:
+- `yarn dev` - Start the development server with Turbopack
+- `yarn build` - Build the production application
+- `yarn start` - Start the production server
+- `yarn lint` - Run ESLint for code linting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Modern, responsive design
+- Animated background effects
+- Screenshot showcase
+- Type-safe development with TypeScript
+- Optimized performance with Next.js
+- Beautiful UI components with TailwindCSS
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Private - All rights reserved
