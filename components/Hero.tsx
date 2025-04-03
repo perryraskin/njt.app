@@ -17,7 +17,7 @@ export function Hero() {
             />
           </div>
           <div className="md:w-2/3 space-y-4 text-center md:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter">
+            <h1 className="text-gray-900 text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter">
               NJT Departures and Track Predictions
             </h1>
             <p className="text-lg tracking-tight text-gray-700 md:text-xl max-w-[600px]">
