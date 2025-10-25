@@ -1,4 +1,5 @@
 import type { Screenshot } from "../types/screenshots";
+import { Banner } from "../components/Banner";
 import { Hero } from "../components/Hero";
 import { Screenshots } from "../components/screenshots/Screenshots";
 import { Description } from "../components/Description";
@@ -15,6 +16,9 @@ export default function LandingPage() {
 
   return (
     <div className="flex min-h-screen flex-col relative overflow-hidden">
+      {/* TestFlight Banner */}
+      <Banner />
+
       {/* Animated Background */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute inset-0 bg-[#f8faff]"></div>
